@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:overrideLibrary="com.wang.avi"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shrikanthravi.outpassgenerator.Loading">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/bg1"
+    android:scaleType="centerCrop"/>
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        style="@style/AVLoadingIndicatorView"
+        android:visibility="visible"
+        app:indicatorName="LineScaleIndicator"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:indicatorColor="@color/White"
+    />
+</RelativeLayout>

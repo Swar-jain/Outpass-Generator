@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="200dp"
+    android:padding="15dp">
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/alert1"
+        android:hint="Enter valid reason"
+        android:textColorHint="@color/Gray"
+        android:gravity="top|left"
+        android:padding="15dp"
+        android:background="@color/transparent_black_hex_5"
+        />
+
+</LinearLayout>

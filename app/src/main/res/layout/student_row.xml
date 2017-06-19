@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/InOut"
+        />
+
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="8.5dp"
+        android:layout_marginTop="3.5dp"
+        android:id="@+id/img"
+        android:src="@drawable/stud1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dept"
+        android:textSize="17dp"
+        android:textColor="@color/White"
+        android:layout_below="@+id/txt"
+        android:layout_alignLeft="@+id/txt"
+        android:layout_alignStart="@+id/txt"
+        android:id="@+id/list_sdept"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year"
+        android:textColor="@color/White"
+        android:textSize="17dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/txt"
+        android:layout_toRightOf="@+id/list_sdept"
+        android:id="@+id/list_syesr"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Name"
+        android:textColor="@color/White"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/InOut"
+        android:layout_toEndOf="@+id/InOut" />
+
+
+</RelativeLayout>

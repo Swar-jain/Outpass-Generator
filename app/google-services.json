@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "770725439252",
+    "firebase_url": "https://outpassgenerator-541c8.firebaseio.com",
+    "project_id": "outpassgenerator-541c8",
+    "storage_bucket": "outpassgenerator-541c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770725439252:android:589f0498dbcf36bf",
+        "android_client_info": {
+          "package_name": "com.example.shrikanthravi.outpassgenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770725439252-p1k068vh1hd09lcad9j9e5upi7623av5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIJXAwQ8DA1tkuW9NmWr1P0w-g7bqJMPc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

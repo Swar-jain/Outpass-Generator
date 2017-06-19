@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="#5A7373">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:textSize="20dp"
+            android:id="@+id/SEName"
+            android:layout_marginTop="90dp"
+            android:text="Name:"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/SEDepartment"
+            android:layout_below="@id/SEName"
+            android:text="Department:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:id="@+id/SEYear"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/SEDepartment"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Year:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@id/SEYear"
+            android:textColor="@color/White"
+            android:layout_marginTop="10dp"
+            android:id="@+id/SERegno"
+            android:text="Reg. No.:"/>
+
+        <TextView
+            android:text="Department"
+            android:layout_width="wrap_content"
+            android:textColor="@color/White"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/SEDepartment"
+            android:layout_alignLeft="@+id/SESname"
+            android:layout_alignStart="@+id/SESname"
+            android:id="@+id/SESdept" />
+
+        <TextView
+            android:text="Year"
+            android:layout_width="wrap_content"
+            android:textColor="@color/White"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/SEYear"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_alignLeft="@+id/SESdept"
+            android:layout_alignStart="@+id/SESdept"
+            android:id="@+id/SESyear" />
+
+        <TextView
+            android:text="Regno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SESregno"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/SERegno"
+            android:layout_alignBottom="@+id/SERegno"
+            android:textColor="@color/White"
+            android:layout_alignLeft="@+id/SESyear"
+            android:layout_alignStart="@+id/SESyear" />
+
+        <TextView
+            android:text="sname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/White"
+            android:layout_marginStart="50dp"
+            android:id="@+id/SESname"
+            android:layout_above="@+id/SEDepartment"
+            android:layout_toRightOf="@+id/SEDepartment"
+            android:layout_toEndOf="@+id/SEDepartment" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textColor="@color/White"
+            android:src="@drawable/stud1"
+            android:id="@+id/SEimg"
+            android:layout_marginBottom="31dp"
+            android:layout_above="@+id/SEDepartment"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

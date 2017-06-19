@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/Gunmetal">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Name"
+    android:text="Name:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Department"
+        android:layout_below="@id/Name"
+        android:text="Department:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Year"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/Department"
+        android:text="Year:"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_below="@id/Year"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Regno"
+    android:text="Reg. No.:"/>
+
+    <TextView
+        android:text="sname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Department"
+        android:layout_toEndOf="@+id/Department"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:id="@+id/Sname" />
+
+    <TextView
+        android:text="Department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Department"
+        android:layout_alignLeft="@+id/Sname"
+        android:layout_alignStart="@+id/Sname"
+        android:id="@+id/Sdept" />
+
+    <TextView
+        android:text="Year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Year"
+        android:layout_alignLeft="@+id/Sdept"
+        android:layout_alignStart="@+id/Sdept"
+        android:id="@+id/Syear" />
+
+    <TextView
+        android:text="Regno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sregno"
+        android:layout_alignBaseline="@+id/Regno"
+        android:layout_alignBottom="@+id/Regno"
+        android:layout_alignLeft="@+id/Syear"
+        android:layout_alignStart="@+id/Syear" />
+    </RelativeLayout>
+</RelativeLayout>
