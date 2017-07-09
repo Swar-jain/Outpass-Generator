@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_warden"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shrikanthravi.outpassgenerator.security">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg1"
+        android:scaleType="centerCrop"/>
+
+
+
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sTab"
+        android:layout_marginTop="10dp">
+
+        <!--  <android.support.design.widget.AppBarLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+              <android.support.design.widget.TabLayout
+                  android:id="@+id/tabs"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  app:tabMode="fixed"
+                  app:tabGravity="fill"/>
+
+          </android.support.design.widget.AppBarLayout> -->
+
+        <com.ogaclejapan.smarttablayout.SmartTabLayout
+            android:id="@+id/sviewpagertab"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:stl_indicatorAlwaysInCenter="false"
+            app:stl_indicatorWithoutPadding="false"
+            app:stl_indicatorInFront="false"
+            android:clipToPadding="false"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorGravity="center"
+            app:stl_indicatorColor="@color/transparent_black_hex_4"
+            app:stl_indicatorThickness="36dp"
+            app:stl_indicatorWidth="auto"
+            app:stl_indicatorCornerRadius="36dp"
+            app:stl_overlineColor="#4D000000"
+            app:stl_overlineThickness="0dp"
+            app:stl_underlineColor="@color/transparent_black_hex_1"
+            app:stl_underlineThickness="0dp"
+            app:stl_dividerColor="@color/transparent_black_hex_1"
+            app:stl_dividerThickness="0dp"
+            app:stl_defaultTabBackground="?attr/selectableItemBackground"
+            app:stl_defaultTabTextAllCaps="false"
+            app:stl_defaultTabTextColor="@color/White"
+            app:stl_defaultTabTextSize="20sp"
+            app:stl_defaultTabTextHorizontalPadding="18dp"
+            app:stl_defaultTabTextMinWidth="1dp"
+            app:stl_distributeEvenly="true"
+            app:stl_clickable="true"
+            app:stl_titleOffset="24dp"
+            app:stl_drawDecorationAfterTab="false"
+            />
+        <android.support.v4.view.ViewPager
+            android:id="@+id/sviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/sviewpagertab"
+            android:layout_marginTop="50dp"/>
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</RelativeLayout>

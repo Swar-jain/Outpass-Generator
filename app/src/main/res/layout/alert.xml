@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="200dp"
+    android:padding="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Outpass Limit Exceeded, mention the reason to forward your request to warden"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/alert"
+            android:hint="Enter valid reason"
+            android:textColorHint="@color/Gray"
+            android:gravity="top|left"
+            android:padding="15dp"
+            android:background="@color/transparent_black_hex_5"
+            />
+
+</LinearLayout>

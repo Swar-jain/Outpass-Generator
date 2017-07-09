@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreeFragment">
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ripple1"
+        android:iconifiedByDefault="false"
+        android:id="@+id/idsearch">
+        <requestFocus/>
+    </SearchView>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh3"
+        android:layout_below="@id/idsearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Student_list">
+
+    </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

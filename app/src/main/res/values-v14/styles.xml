@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="warden" parent="student">
+        <item name="colorPrimary">@color/LightBlue</item>
+        <item name="colorAccent">@android:color/darker_gray</item>
+        <item name="android:colorForeground">@color/transparent_black_percent_80</item>
+        <item name="android:textColorPrimary">@android:color/primary_text_light_nodisable</item>
+    </style>
+</resources>
